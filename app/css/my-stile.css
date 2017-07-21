@@ -1,8 +1,5 @@
-main p {
-  background-color: green; }
-
-body {
-  background-color: pink; }
+header {
+  background-image: url(../img/pattern.png); }
 
 nav ul {
   margin: 0;
@@ -16,6 +13,3 @@ nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none; }
-
-.box {
-  border: solid 1px green; }

@@ -1,4 +1,4 @@
-header {
+.header {
   background-image: url(../img/pattern.png); }
 
 nav ul {
@@ -13,3 +13,28 @@ nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none; }
+
+.promo {
+  background: #29292a url(../img/promo.png) no-repeat 50% 50%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: #fff; }
+  .promo img {
+    width: 100%; }
+
+.main .searching {
+  background-color: gray; }
+
+.main .block-header:before {
+  display: inline-block;
+  content: "";
+  width: 52px;
+  height: 37px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 6px; }
+
+.main .two:before {
+  background-position: 0 -71px; }
+
+.main .three:before {
+  background-position: 0 -34px; }

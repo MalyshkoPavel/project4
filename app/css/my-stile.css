@@ -1,4 +1,5 @@
-.header {
+.header,
+.footer {
   background-image: url(../img/pattern.png); }
 
 nav ul {
@@ -22,8 +23,19 @@ nav a {
   .promo img {
     width: 100%; }
 
-.main .searching {
+.main form {
   background-color: gray; }
+
+.main form:after {
+  display: block;
+  position: relative;
+  top: 39px;
+  content: '';
+  width: 100%;
+  height: 39px;
+  background: url(../img/shadow.png) no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%; }
 
 .main .block-header:before {
   display: inline-block;
@@ -38,3 +50,8 @@ nav a {
 
 .main .three:before {
   background-position: 0 -34px; }
+
+.footer {
+  color: #fff; }
+  .footer .copyright {
+    border: 2px solid white; }
